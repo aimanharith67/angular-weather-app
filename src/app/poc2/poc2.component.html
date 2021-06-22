@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-transparent w3-padding " style="letter-spacing:4px;max-width: 1800px;margin: auto;">
+            <a href="#" class="w3-bar-item ">Weather POC</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <!-- <a href="#about" class="w3-bar-item ">About</a>
+                <a href="#menu" class="w3-bar-item ">Menu</a>
+                <a href="#contact" class="w3-bar-item ">Contact</a> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class=" w3-container " style="max-width:1450px; min-height:900px; max-width: 1900px; margin: auto; "
+        id="home">
+        <div class="header ">
+            <h1 class="title" [ngsReveal]="{ reset: true}"
+                style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0s, transform 0.6s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                Welcome Friends</h1>
+        </div>
+
+
+        <!-- Balloon -->
+
+        <div class="row">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="col balloon animate__animated animate__backInUp"
+                src="https://assets1.lottiefiles.com/packages/lf20_ZIP12e.json" background="transparent" speed="1"
+                style="width: 200px; height: 200px;top: 20%;" loop autoplay></lottie-player>
+
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="col balloon animate__animated animate__backInUp"
+                src="https://assets1.lottiefiles.com/packages/lf20_ZIP12e.json" background="transparent" speed="1"
+                style="width: 200px; height: 200px;left: 20%;" loop autoplay></lottie-player>
+
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="col balloon animate__animated animate__backInUp"
+                src="https://assets1.lottiefiles.com/packages/lf20_ZIP12e.json" background="transparent" speed="1"
+                style="width: 200px; height: 200px;left: 60%; " loop autoplay></lottie-player>
+
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="col balloon animate__animated animate__backInUp"
+                src="https://assets1.lottiefiles.com/packages/lf20_ZIP12e.json" background="transparent" speed="1"
+                style="width: 200px; height: 200px;left: 80%;top: 10%;" loop autoplay></lottie-player>
+        </div>
+
+
+
+    </header>
+
+    <!-- Icon -->
+    <div class="wrapper " [ngsReveal]="{ reset: true}">
+        <ul>
+            <li class="facebook animate__animated animate__backInLeft"><a href="#"><i
+                        class="fab fa-facebook fa-2x "></i></a>
+            </li>
+            <li class="twitter animate__animated animate__backInLeft"><a href="#"><i
+                        class="fab fa-twitter fa-2x"></i></a></li>
+            <li class="instagram animate__animated animate__backInRight"><a href="#"><i
+                        class="fab fa-instagram fa-2x"></i></a></li>
+            <li class="whatsapp animate__animated animate__backInRight"><a href="#"><i
+                        class="fab fa-whatsapp fa-2x"></i></a></li>
+        </ul>
+    </div>
+
+
+    <!--  Second Section -->
+
+    <section style="padding-top: 40px;">
+        <div class="w3-center box">
+            <div class="title3" style="padding-top:50px; " [ngsReveal]="{ reset: true}">
+                <p style="color: #8c4bff; font-weight: 700;">CHECK YOU WEATHER</p>
+                <h1>How does it work?</h1>
+                <p>Our weather system produces and provides detailed weather forecasts
+                    for
+                    all regions of
+                    our planet -
+                    both land and sea – tailored to the individual needs of people who require daily updates.</p>
+                <!-- <h3 *ngFor="let item of message">{{item.description2}}</h3> -->
+            </div>
+            <!-- <script class="shape" style=""
+                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets6.lottiefiles.com/datafiles/nPsxzL62HZmztS0/data.json"
+                background="transparent" speed="1" style="width: 100px; height: 100px; margin: auto; width: 50%;" loop
+                autoplay>
+            </lottie-player> -->
+
+        </div>
+    </section>
+
+    <!-- Third Section -->
+    <div class="w3-container">
+        <div class="row">
+            <div class=" item w3-col m6" data-aos="fade-right">
+                <div class="card">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_cHA3rG.json"
+                        background="transparent" speed="1" style="width: 700px; height: 700px;" loop autoplay>
+                    </lottie-player>
+                    <!-- <img class="inner-image"
+                        src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/hp-primary-desktop_e0dab1f509.svg"
+                        style="max-height: 500px; margin-left: 240px;" /> -->
+                    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+                        style=""></script>
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_5vheAi.json" mode="bounce"
+                        background="#3490DC" speed="1"
+                        style="width: 200px; height: 200px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "
+                        loop autoplay>
+                    </lottie-player> -->
+                </div>
+                <!-- <h1 class="title2" style="margin-top: -180px;">Warps, Heddles, Shuttles and Sheds</h1> -->
+            </div>
+
+            <div class="step1 w3-col m6" [ngsReveal]="{ reset: true}"
+                style="text-align: left; justify-content: left; max-width: 400px;position: absolute; left: 55%; padding-top: 70px;">
+                <h3>Step 1</h3>
+                <h4>What is this website about?</h4>
+                <p>Weather forecasts are made by collecting quantitative data about the current state of the atmosphere
+                    at a given place and using meteorology to project how the atmosphere will change.</p>
+            </div>
+        </div>
+
+        <!-- Forth Section -->
+        <div class="row" style="margin-top:0px;">
+            <div class="step1 w3-col m6" [ngsReveal]="{ reset: true}"
+                style="text-align: right; justify-content: right; max-width: 400px;position: absolute; right: 60%;margin-top: 90px; ">
+                <h3>Step 2</h3>
+                <h4>How to used?</h4>
+                <p>Use the Weather Checker to check the weather for your current location or in other places. Weather
+                    Checker collect information about the atmosphere, such as humidity and temperature.</p>
+            </div>
+
+            <div class="w3-col m6 " data-aos="fade-left" style="">
+                <div id="divWeatherMain"
+                    *ngIf="{'background-image:url': weather.isDay? '../assets/noon.jpg' : '../assets/moon.jpg'}"
+                    style="padding-top: 0px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+
+                    <div *ngIf="weather.isDay" class="weatherWidgetRow">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player class="animate__animated animate__bounce"
+                            src="https://assets7.lottiefiles.com/packages/lf20_bq69Rz.json" background="transparent"
+                            speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+
+                    </div>
+                    <div *ngIf="!weather.isDay" class="weatherWidgetRow">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player class="animate__animated animate__bounce"
+                            src="https://assets4.lottiefiles.com/packages/lf20_ZillC7.json" background="transparent"
+                            speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+
+                    </div>
+                    <div class="weatherWidgetRow cloudDiv">
+                        <i class="animate__animated animate__bounce fas fa-cloud fa-3x cloud"></i>
+                    </div>
+
+                    <div class="weatherWidgetRow" style="font-size: 32px;margin-top: -175px;">{{weather.temp_celcius}}°C
+                    </div>
+                    <div class="weatherWidgetRow" style="font-size: 25px;margin-top: 10px;">
+                        {{weather.name}}</div>
+                    <div class="weatherWidgetRow" style="font-size: 12px;">Humidity: {{weather.main.humidity}}%</div>
+
+                    <div class="search-wrapper" style="margin-top: 100px;">
+                        <div class="input-holder">
+                            <input type="text" #userInput class="search-input form-control"
+                                placeholder="Enter country name" (keydown.enter)="getCity(userInput.value)">
+                            <button class="search-icon" (click)="getCity(userInput.value)"
+                                onclick="searchToggle(this, event);"><span></span></button>
+                        </div>
+                        <span class="close" onclick="searchToggle(this, event);"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

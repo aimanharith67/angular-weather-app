@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -21,12 +24,19 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
             ],
             "styles": [
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/fontawesome/all.js",
+              "src/scrollreveal/dist/scrollreveal.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/customjs/custom.js",
+              "src/assets/lottie-player.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,7 +99,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/customjs/custom.js",
+              "src/assets/lottie-player.js"
+            ]
           }
         },
         "lint": {
